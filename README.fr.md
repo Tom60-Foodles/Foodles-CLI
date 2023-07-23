@@ -10,3 +10,8 @@ Aller sur https://app.foodles.co/, utiliser l'outil de développement (F12), pou
 [cookies]
 sessionid = "La valeur que vous avez pris dans votre navigateur internet"
 ```
+
+
+### License
+
+Ce projet est sous licence Unlicense - voir le fichier [LICENSE.md](LICENSE.md) pour plus de détails.
