@@ -3,7 +3,7 @@ use std::fs;
 use std::fs::{ File };
 use std::path::Path;
 use csv::WriterBuilder;
-use foodle_api::fridge;
+use foodles_api::fridge;
 use chrono::Local;
 
 /// Get the cookies from the TOML file
@@ -90,7 +90,7 @@ fn update_index_file(fridge_date: &fridge::model::Fridge) -> Result<String, Box<
                 product.id.to_string(),
                 product.name.to_string(),
                 product.description.to_string(),
-                product.image.to_string(),
+                "".to_string(),//product.image.to_string(),
                 "test".to_string(),//icons
                 product.ingredients.to_string(),
                 "test".to_string(),//trace_allergens

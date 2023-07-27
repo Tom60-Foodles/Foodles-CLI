@@ -305,8 +305,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3f9eec918d3f24069decb9af1554cad7c880e2da24a9afd88aca000531ab82c1"
 
 [[package]]
-name = "foodle_api"
-version = "0.1.0"
+name = "foodles_api"
+version = "0.2.0"
 dependencies = [
  "reqwest",
  "serde",
@@ -314,7 +314,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "foodle_cli"
+name = "foodles_cli"
 version = "0.1.0"
 dependencies = [
  "chrono",
@@ -322,7 +322,7 @@ dependencies = [
  "encoding",
  "encoding_rs",
  "fluent-bundle",
- "foodle_api",
+ "foodles_api",
  "reqwest",
  "serde",
  "serde_json",
